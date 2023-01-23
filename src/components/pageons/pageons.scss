@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 26rem 26rem 26rem;
+  margin-top: 20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+.button-ann-new{
+  font-weight: 500;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.button-ann-new:hover{
+  color:white;
+  background-color: green;
+}
